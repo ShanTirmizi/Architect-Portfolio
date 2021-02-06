@@ -12,11 +12,19 @@
 
 }
 
-.home__content__title h1 {
+.home__content__title__h1 {
     font-size: 5rem;
     transform: translate3d(0.08em, -0.08em, 0);
     text-shadow: -0.08em 0.08em var(--bg-color-2);
     color: var(--bg-color-4);
+}
+
+.home__content__title__h1_dynamic {
+    font-size: 5rem;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-2);
+    color: var(--bg-color-4);
+    font-weight: bold;
 }
 
 .home__architect_img {
