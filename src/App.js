@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Projects from './components/Projects/Projects';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import {TrackDocument, Track} from 'react-track';
+import {topTop} from 'react-track/tracking-formulas';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <About />
+      <Projects />
     </div>
   );
 }
 
 export default App;
+
+// import {TrackDocument, Track} from 'react-track';
+// import {topTop} from 'react-track/tracking-formulas';
+
+
+//   <TrackDocument formulas={[topTop]}>
+  // {topTop =>
+
+  //   <Track component="h2" formulas={[topTop]}>
+  //   {(H2,posTopTop) =>
+  //     <H2>My top is {posTopTop}px from the viewport's top.</H2>
+  //   }</Track>
+
+//   }</TrackDocument>

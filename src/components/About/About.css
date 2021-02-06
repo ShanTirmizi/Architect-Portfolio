@@ -1,0 +1,13 @@
+.about {
+    background-color: var(--bg-color-2);
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.about__img {
+    height: 50vh;
+}
