@@ -8,14 +8,14 @@ const Project = () => {
     const handleHover = () => {
         setIsFlipped(!isFlipped)
     }
-    const handleOut = () => {
-        setIsFlipped(!isFlipped)
-    }
+    // const handleOut = () => {
+    //     setIsFlipped(!isFlipped)
+    // }
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className='project__content__project__front' onMouseOver={handleHover}>
             </div>
-            <div className='project__content__project__back' onMouseOut={handleOut}>
+            <div className='project__content__project__back' onMouseOut={handleHover}>
             </div>
         </ReactCardFlip>
     )
