@@ -145,3 +145,49 @@ h1 {
     color: #f2cee6;
     text-shadow: -2px 0 #0d1b1e, 0 -2px #0d1b1e, 2px 0 #0d1b1e, 0 2px #0d1b1e, 2px 2px #0d1b1e, -2px -2px #0d1b1e, -2px 2px #0d1b1e, 2px -2px #0d1b1e, 6px 6px #2dc7ff;
 } */
+
+.home__alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+    padding: 1rem;
+    filter: brightness(95%);
+    transform: translate(1%, -110%);
+    text-decoration: none;
+    color: #EBEBEB;
+    /* color: var(--bg-color-3); */
+}
+
+.home__link__cancel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.home__link__clip {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.home__link__clip p {
+    margin-right: 0.5rem;
+}
+
+.home__link__contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.home__copy {
+    cursor: pointer;
+}
+
+.home__copy:hover {
+    color: var(--bg-color-2);
+}
