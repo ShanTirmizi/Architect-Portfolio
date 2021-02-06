@@ -1,25 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
+import ReactCardFlip from 'react-card-flip'
+import Project from './Project/Project'
 
 const Projects = () => {
     return (
         <div className='projects'>
             <h1>Projects</h1>
            <div className='projects__content'>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
-                <div className='projects__content__project__front'>
-                </div>
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
+
            </div>
         </div>
     )

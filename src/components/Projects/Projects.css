@@ -36,10 +36,4 @@
     overflow: scroll;
 }
 
-.projects__content__project__front {
-    width: 20rem;
-    background-color: var(--bg-color-2);
-    height: 20rem;
-    margin: 1rem;
-}
 
