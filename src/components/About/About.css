@@ -8,6 +8,35 @@
     align-items: center;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
 .about__img {
     height: 50vh;
+}
+
+.about__img__content {
+    width: 25rem;
+    text-align: start;
+    /* color: var(--bg-color-4); */
+    /* padding: 1rem; */
+    /* background: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2); */
+    color: var(--bg-color-4);
+    letter-spacing: 1px;
+    /* border-radius: 2rem; */
+}
+
+.about__img__content h1 {
+    font-size: 3rem;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-1);
+    color: var(--bg-color-4);
+}
+
+.about__img__content h3 {
+    margin-top: 1rem;
 }
