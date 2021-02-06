@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import { HiDownload } from "react-icons/hi";
+import { MdContacts } from "react-icons/md";
+import { GrLinkedin } from "react-icons/gr";
 import Architect from '../../assets/undraw_circles_y7s2.svg'
 
 
@@ -29,7 +31,9 @@ const Home = () => {
                         </div>
                         <div className='home__content__contact btn'>
                             <h3>Contact me</h3>
+                            <MdContacts />
                         </div>
+                        <GrLinkedin />
                     </div>
                 </div>
                 <img className='home__architect_img' src={Architect} alt='architect' />
