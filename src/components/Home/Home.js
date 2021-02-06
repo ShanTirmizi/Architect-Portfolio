@@ -18,7 +18,11 @@ const Home = () => {
                         <h1>An Architect,</h1> 
                     </div>
                     <div>
-
+                        <div className='home__content__contact btn'>
+                            <h3>Contact me</h3>
+                            <MdContacts />
+                        </div>
+                            <GrLinkedin />
                     </div>
                     <div className='home__content__cv_port'>
                         <div  className='home__content__cv btn'>
@@ -29,11 +33,6 @@ const Home = () => {
                             <h3>Portfolio</h3>
                             <HiDownload />
                         </div>
-                        <div className='home__content__contact btn'>
-                            <h3>Contact me</h3>
-                            <MdContacts />
-                        </div>
-                        <GrLinkedin />
                     </div>
                 </div>
                 <img className='home__architect_img' src={Architect} alt='architect' />

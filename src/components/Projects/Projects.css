@@ -1,4 +1,45 @@
 .projects {
     background-color: var(--bg-color-3);
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+    /* border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem; */
 }
+
+.projects h1 {
+    font-size: 3rem;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-1);
+    color: var(--bg-color-4);
+    /* background-color: var(--bg-color-2); */
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+
+.projects__content {
+    width: 40rem;
+    height: 30rem;
+    /* background-color: var(--bg-color-1); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    /* align-content: center; */
+    /* align-items: center; */
+    overflow: scroll;
+}
+
+.projects__content__project__front {
+    width: 20rem;
+    background-color: var(--bg-color-2);
+    height: 20rem;
+    margin: 1rem;
+}
+
