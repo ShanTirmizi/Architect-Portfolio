@@ -7,6 +7,9 @@
     align-content: center;
     align-items: center;
     height: 100vh;
+    /* border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem; */
+
 }
 
 .home__content__title h1 {
