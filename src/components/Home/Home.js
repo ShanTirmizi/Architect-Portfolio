@@ -34,7 +34,7 @@ const Home = () => {
                     <div>
                         <div className='home__content__title'>
                             <h1 className='home__content__title__h1'>Hi,</h1>
-                            <h1 className='home__content__title__h1'>I'm Emily Flynn,</h1>
+                            <h1 className='home__content__title__h1'>I'm John Smith,</h1>
                             <div className='home__content__title__h1_dynamic'>
                             <TypeWriter
                                 options={{
@@ -50,7 +50,7 @@ const Home = () => {
                                 <h2>Contact me</h2>
                                 <MdContacts className='icon' />
                             </div>
-                            <a className='linkedin' href='https://www.linkedin.com/in/emilynflynn/' target='__blank'>
+                            <a className='linkedin' href='https://www.linkedin.com/' target='__blank'>
                                 <GrLinkedin className='home__link' />
                             </a>
                             {
@@ -62,13 +62,13 @@ const Home = () => {
                                         </div>
                                         <div className='home__link__contact'>
                                             <p>Phone:</p>
-                                            <p>07583379880</p>
+                                            <p>07000000880</p>
                                         </div>
                                         <div className='home__link__clip' 
                                                 onClick={() => {
                                                     navigator.clipboard.writeText('enfly26@gmail.com')
                                                 }}>
-                                                <p>Email: enfly26@gmail.com</p>
+                                                <p>Email: test@gmail.com</p>
                                                 <MdContentCopy className='home__copy' />
                                         </div>
                                         <div className='home__link__contact'>
