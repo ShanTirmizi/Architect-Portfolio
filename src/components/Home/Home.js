@@ -7,7 +7,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import { HiDownload } from "react-icons/hi";
 import { MdContacts } from "react-icons/md";
 import { GrLinkedin } from "react-icons/gr";
-import Architect from '../../assets/undraw_circles_y7s2.svg'
+// import Architect from '../../assets/undraw_circles_y7s2.svg'
+import Architect from '../../assets/red-2.svg'
 // import Architect from '../../assets/undraw_designer_life_w96d.svg'
 // import Architect from '../../assets/undraw_everyday_design_gy64.svg'
 // import Architect from '../../assets/undraw_interaction_design_odgc.svg'
