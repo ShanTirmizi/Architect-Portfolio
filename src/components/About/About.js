@@ -8,8 +8,9 @@ import { Parallax } from 'react-scroll-parallax';
 
 const About = () => {
     return (
-        <div className='about'>
-            <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
+        <div id='aboutNav'>
+        <div className='about' >
+            <Parallax className="custom-class" y={[-30, 30]} tagOuter="figure">
                 <img className='about__img' src={Architect} alt='My pic' />
             </Parallax>
             <Parallax className="custom-class" x={[-10, 10]} tagOuter="figure">
@@ -20,6 +21,7 @@ const About = () => {
                     <h3>This portfolio showcases some of the work that I have carried out over the last few years at University and highlights some of my interests.</h3>
                 </div>
             </Parallax>
+        </div>
         </div>
     )
 }

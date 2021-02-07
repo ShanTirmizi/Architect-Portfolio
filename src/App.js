@@ -4,13 +4,16 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import {TrackDocument, Track} from 'react-track';
 import {topTop} from 'react-track/tracking-formulas';
+import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Projects />
+        <Navbar />
+        <Home />
+        <About />
+        <Projects />
     </div>
   );
 }

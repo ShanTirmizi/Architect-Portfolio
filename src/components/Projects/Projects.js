@@ -5,7 +5,7 @@ import Project from './Project/Project'
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div className='projects' id='projectsNav'>
             <h1>Projects</h1>
            <div className='projects__content'>
                 <Project />

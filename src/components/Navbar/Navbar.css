@@ -1,0 +1,94 @@
+.floating__menu {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    position: fixed;
+    margin-top: 10rem;
+    z-index: 1;
+    cursor: pointer;
+    transform: translate(240%, -300%);
+}
+
+.floating__menu__link {
+    margin: 0 1rem;
+    font-weight: bold;
+    color: var(--bg-color-5);
+
+}
+
+/* .home__navlink {
+    color: var(--bg-color-4);
+    text-shadow: -0.08em 0.08em var(--bg-color-5);
+} */
+
+.home__navlink:hover {
+    color: var(--bg-color-4);
+    font-weight: bold;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-1);
+    -webkit-transition:200ms ease-in-out;
+    -moz-transition:200ms ease-in-out;
+    -o-transition:200ms ease-in-out;
+    transition:200ms ease-in-out;
+
+}
+
+.home_active, .home_active:hover {
+    color: var(--bg-color-2);
+    font-weight: bold;
+    border-bottom: 1px solid var(--bg-color-2);
+    -webkit-transition:200ms ease-in;
+    -moz-transition:200ms ease-in;
+    -o-transition:200ms ease-in;
+    transition:200ms ease-in;
+}
+/* .about__navlink {
+    color: var(--bg-color-2);
+    text-shadow: -0.08em 0.08em var(--bg-color-1);
+} */
+
+.about__navlink:hover {
+    color: var(--bg-color-4);
+    font-weight: bold;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-2);
+    -webkit-transition:200ms ease-in;
+    -moz-transition:200ms ease-in;
+    -o-transition:200ms ease-in;
+    transition:200ms ease-in;
+}
+
+.home_about, .home_about:hover {
+    color: var(--bg-color-3);
+    font-weight: bold;
+    border-bottom: 1px solid var(--bg-color-3);
+
+    -webkit-transition:200ms ease-in;
+    -moz-transition:200ms ease-in;
+    -o-transition:200ms ease-in;
+    transition:200ms ease-in;
+}
+
+
+.projects__navlink:hover {
+    color: var(--bg-color-4);
+    font-weight: bold;
+    transform: translate3d(0.08em, -0.08em, 0);
+    text-shadow: -0.08em 0.08em var(--bg-color-3);
+    -webkit-transition:200ms ease-in;
+    -moz-transition:200ms ease-in;
+    -o-transition:200ms ease-in;
+    transition:200ms ease-in;
+}
+
+.home_projects, .home_projects:hover {
+    color: var(--bg-color-1);
+    font-weight: bold;
+    border-bottom: 1px solid var(--bg-color-1);
+
+    -webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+}
+
