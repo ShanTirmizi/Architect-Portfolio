@@ -1,6 +1,8 @@
 import React from 'react'
 import './About.css'
-import Architect from '../../assets/undraw_creative_draft_vb5x.svg'
+// import Architect from '../../assets/undraw_creative_draft_vb5x.svg'
+import Architect from '../../assets/green-3.svg'
+
 import { Parallax } from 'react-scroll-parallax';
 
 
