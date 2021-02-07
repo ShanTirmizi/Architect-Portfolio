@@ -181,7 +181,7 @@ h1 {
 .home__link__contact {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .home__copy {

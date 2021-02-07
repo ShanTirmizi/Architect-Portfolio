@@ -28,9 +28,9 @@ const Home = () => {
     // }, [alert])
     console.log(isOpen)
     return (
-        <div className='home'>
+        <div className='home' id='homeNav'>
             <div className='home__content'>
-                <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
+                <Parallax className="custom-class" y={[40, -40]} tagOuter="figure">
                     <div>
                         <div className='home__content__title'>
                             <h1 className='home__content__title__h1'>Hi,</h1>
@@ -70,7 +70,11 @@ const Home = () => {
                                                 }}>
                                                 <p>Email: enfly26@gmail.com</p>
                                                 <MdContentCopy className='home__copy' />
-                                            </div>
+                                        </div>
+                                        <div className='home__link__contact'>
+                                            <p>Location:</p>
+                                            <p>London</p>
+                                        </div>
                                     </div>
                                 )}
                         </div>
@@ -86,7 +90,7 @@ const Home = () => {
                         </div>
                     </div>
                 </Parallax>
-                <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
+                <Parallax className="custom-class" y={[-40, 40]} tagOuter="figure">
                     <img className='home__architect_img' src={Architect} alt='architect' />
                 </Parallax>
             </div>
