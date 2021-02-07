@@ -34,7 +34,7 @@ const Home = () => {
                     <div>
                         <div className='home__content__title'>
                             <h1 className='home__content__title__h1'>Hi,</h1>
-                            <h1 className='home__content__title__h1'>I'm John Smith,</h1>
+                            <h1 className='home__content__title__h1'>I'm Karen Smith,</h1>
                             <div className='home__content__title__h1_dynamic'>
                             <TypeWriter
                                 options={{
